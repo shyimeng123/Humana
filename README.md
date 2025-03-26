@@ -2,10 +2,13 @@
 
 This repo is a simple demo of a chatbot based on RAG that retrieves a single PDF research paper.
 It uses Open AI gpt 4-o to build the embeddings and process the answer.
+Here is an example of the terminal running of the python script:
+
+
 Since I paid for the tokens through my personal account, I did NOT try to run and evaluate massively. Below are some further points:
 
 # UI
-For UI, we can use streamlit or write an app to modulize. Here is an example of streamlit UI that I wrote before to compare different embeddings for a given input text. After knowing the product/business need, I can create the library and UI for general usage.
+For UI, we can use streamlit or write an app to modulize. Here is an example of streamlit UI that I wrote before to compare different embeddings for a given input text. After knowing the product/business needed, I can create the library and UI for general usage.
 
 # Optimization
 One can build chat bot within 2 days : ) The key challenge is to optimize through the following main aspects:
