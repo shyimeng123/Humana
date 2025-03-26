@@ -22,8 +22,12 @@ For input, when doining this project, I tried to use the default pdf loader from
 We can use zero-shot, few-shot, chain of thought, graph of thought etc depending on the usage and buisness goal and even to build an agent
 
 ### Output
-The output examples are given in the ChatBot2.py, at the end of there are 3 instances. There are also a lot to optimize such as stem the key concepts and may further ranking to retrive
+The output examples are given in the ChatBot2.py, at the end of there are 3 instances. There are also a lot to optimize such as stem the key concepts and may further ranking to retrive. Right now the quality is limited by the pdf loader/aplitter---it contains strings that are not well splited. There should be some post processing process to better present the answers.
 
 ### Embedding
+Embedding is crucial to improve the retrieval quality. There are a lot of models such as open AI, meta Llamma, Gemini etc. Besides those llm, some open source embedding models such as microsoft E5 embedding model and the one you shared for medical knowledge graph based embedding can be used here.
+
+For the knowledge graph implementation, we may need to build a classifier such as rule based/logistic regression to decide if we would like to "fetch" from the knowledge base or not. If it is some general question, then we wont fetch the biological/medical terminology. And then we will need to build the vector store for future usage.
   
-## 2.Cost
+## 2.Cost and Latency
+
