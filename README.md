@@ -9,7 +9,7 @@ You could interact with the std in/ std out
 Since I paid for the tokens through my personal account, I did NOT try to run and evaluate massively. Below are some further points:
 
 # UI
-For UI, we can use streamlit or write an app to modulize. Here is an example of streamlit UI that I wrote before to compare different embeddings for a given input text. After knowing the product/business needed, I can create the library and UI for general usage.
+For UI, we can use streamlit or write an app to modulize. Here is an example of streamlit UI that I wrote before to compare different embeddings for a given input text. (https://github.com/shyimeng123/EmbeddingComparisonApp/blob/aeb661c691bc63d15bc4b165d835e4d3f02210e5/README.md) After knowing the product/business needed, I can create the library and UI for general usage.
 
 # Optimization
 One can build chat bot within 2 days : ) The key challenge is to optimize through the following main aspects:
