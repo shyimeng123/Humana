@@ -3,7 +3,7 @@
 This repo is a simple demo of a chatbot based on RAG that retrieves a single PDF research paper.
 It uses Open AI gpt 4-o to build the embeddings and process the answer.
 Here is an example of the terminal running of the python script:
-
+(https://github.com/shyimeng123/Humana/blob/main/Screen%20Shot%202025-03-26%20at%203.58.16%20PM.png)
 
 Since I paid for the tokens through my personal account, I did NOT try to run and evaluate massively. Below are some further points:
 
