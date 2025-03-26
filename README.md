@@ -31,3 +31,14 @@ For the knowledge graph implementation, we may need to build a classifier such a
   
 ## 2.Cost and Latency
 
+Chat bots are expensive and the cost is depending on the api such as open AI, Llama, Deekseek etc. Firstly we may do an ablation analyis to compare/evaluate the cost for different LLM platform.
+
+To optimize the cost, we need to carefuly decide which tokens to input and which tokens to output. Some rule based/MLE model can be applied on top of it.
+Then it may encounter another issue--latency. If there are too many adds on, the response time may be slow, There are many things to work on for this aspects.
+
+# Evaluation
+Evaluation is another important aspect.
+
+
+
+
