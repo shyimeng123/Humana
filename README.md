@@ -6,7 +6,7 @@ Here is an example of the terminal running of the python script:
 You could interact with the std in/ std out
 ![Screenshot](https://github.com/shyimeng123/Humana/blob/3fcdf7b2d2d497f19bb232252221d123e496634e/TerminalRun.png)
 
-Since I paid for the tokens through my personal account, I did NOT try to run and evaluate massively. Below are some further points:
+Since I paid for the tokens through my personal account, I did NOT try to run and evaluate massively. Due to time limit, there are A LOT to be improved in the future. Below are some further points:
 
 # UI
 For UI, we can use streamlit or write an app to modulize. Here is an example of streamlit UI that I wrote before to compare different embeddings for a given input text. ![screenshot](https://github.com/shyimeng123/Humana/blob/4a99fb155d584c36175e6cdd09cc1de6eedcc4cd/SampleApp.png)
