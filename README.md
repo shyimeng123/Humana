@@ -13,7 +13,7 @@ For UI, we can use streamlit or write an app to modulize. Here is an example of 
 (https://github.com/shyimeng123/EmbeddingComparisonApp/blob/aeb661c691bc63d15bc4b165d835e4d3f02210e5/README.md) After knowing the product/business needed, I can create the library and UI for general usage.
 
 # Optimization
-One can build chat bot within 2 days : ) The key challenge is to optimize through the following main aspects:
+One can build a chat bot within 2 days : ) The key challenge is to optimize through the following main aspects of quality, cost and latency.
 
 ## 1. Quality
 ### Input
