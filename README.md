@@ -50,7 +50,7 @@ We can also collect past successul chat interactive data and come up with metric
 We can always write prompts to ask GPT to provide us a relevance score, lets say from 1,2,3,4,5 for a chat session
 
 ## Online evaluation
-### Metric Related to User Engagement:
+### Metrics Related to User Engagement:
 carefully design some metrics like interaction time, stop time, if repeatdly asking some question etc.
 
 ### Success or not success
