@@ -37,7 +37,24 @@ To optimize the cost, we need to carefuly decide which tokens to input and which
 Then it may encounter another issue--latency. If there are too many adds on, the response time may be slow, There are many things to work on for this aspects.
 
 # Evaluation
-Evaluation is another important aspect.
+Evaluation is another important aspect. And the design of it relies on the business situation.
+
+## Offline evaluation:
+### Benchmark Data
+There are some general NLP evaluation data set such as BEIR and MTEB for information retrieval tasks. Besides, we can build, like created some human annotaed benchmark data, lets say maybe with thousands examples.
+
+### Metrics
+We can also collect past successul chat interactive data and come up with metrics based on user feedback like satisfied/unsatisfied
+
+### LLM
+We can always write prompts to ask GPT to provide us a relevance score, lets say from 1,2,3,4,5 for a chat session
+
+## Online evaluation
+### Metric Related to User Engagement:
+carefully design some metrics like interaction time, stop time, if repeatdly asking some question etc.
+
+### Success or not success
+depend on the business target, we may have indicator that does the chatbot/agent successfuly solve the problem
 
 
 
