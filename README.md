@@ -29,6 +29,8 @@ The output examples are given in the ChatBot2.py, at the end of there are 3 inst
 Embedding is crucial to improve the retrieval quality. There are a lot of models such as open AI, meta Llamma, Gemini etc. Besides those llm, some open source embedding models such as microsoft E5 embedding model and the one you shared for medical knowledge graph based embedding can be used here.
 
 For the knowledge graph implementation, we may need to build a classifier such as rule based/logistic regression to decide if we would like to "fetch" from the knowledge base or not. If it is some general question, then we wont fetch the biological/medical terminology. And then we will need to build the vector store for future usage.
+
+Moreover, it can be finetuned from the model base to improve the performance. I myself had experience finituning open sources E5 model with domain specific data. That one uses NCE info loss so that we only need to have positive, negative query/answer pairs. 
   
 ## 2.Cost and Latency
 
