@@ -17,7 +17,7 @@ One can build a chat bot within 2 days : ) The key challenge is to optimize thro
 
 ## 1. Quality
 ### Input
-For input, when doining this project, I tried to use the default pdf loader from langchain initially but found for some of the pdf content it cannot seperate the words correctly. Optical Character Recognition (OCR) is an approach to convert the pdf with higher resolution. Also there are lots of different approached such as unstructured pdf loader provided by langchain and many others. 
+For input, when doining this project, I tried to use the default pdf loader from langchain initially but found for some of the pdf content it cannot seperate the words correctly. Optical Character Recognition (OCR) is an approach to convert the pdf with higher resolution. Also there are lots of different approaches such as unstructured pdf loader provided by langchain and many others. 
 
 ### Prompting
 We can use zero-shot, few-shot, chain of thought, graph of thought etc depending on the usage and buisness goal and even to build an agent
