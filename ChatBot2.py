@@ -31,7 +31,6 @@ def LoadDocs(file_path):
 #print(docs[0].metadata)
 def LoadAPI(key,UserInput,docs):
     os.environ["OPENAI_API_KEY"] = key
-    # "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"
     llm = ChatOpenAI(model="gpt-4o")
 
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
