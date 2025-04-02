@@ -30,7 +30,7 @@ Embedding is crucial to improve the retrieval quality. There are a lot of models
 
 For the knowledge graph implementation, we may need to build a classifier such as rule based/logistic regression to decide if we would like to "fetch" from the knowledge base or not. If it is some general question, then we wont fetch the biological/medical terminology. And then we will need to build the vector store for future usage.
 
-Moreover, it can be finetuned from the model base to improve the performance. I myself had experience finituning open sources E5 model with domain specific data. That one uses NCE info loss so that we only need to have positive, negative query/answer pairs. That would need GPU though. Aother finetune approaces maybe adapters, LoRA etc.
+Moreover, it can be finetuned from the model base to improve the performance. I myself had experience finituning open sources E5 model with domain specific data. That one uses NCE info loss so that we only need to have positive, negative query/answer pairs. That would need GPU though. Other finetune approaces maybe adapters, LoRA etc.
   
 ## 2.Cost and Latency
 
